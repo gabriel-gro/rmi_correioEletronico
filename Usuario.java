@@ -26,7 +26,11 @@ public class Usuario implements Serializable {
     }
 
     public Mensagem capturarUmaMensagem(){
-        return listaDeMensagens.pop();
+        if (listaDeMensagens.size() > 0) {
+            return listaDeMensagens.pop();
+        } else {
+            return null;
+        }
     }
 
     public int verNumDeMensagens(){

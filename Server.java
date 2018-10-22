@@ -87,7 +87,7 @@ public class Server implements Correio {
 	public static void main (String args[]) {
 		
 		try {
-            System.setProperty("java.rmi.server.hostname","10.0.0.103");
+            System.setProperty("java.rmi.server.hostname","127.0.0.1");
 			
 			//Create and export a remote object
 			Server obj = new Server();

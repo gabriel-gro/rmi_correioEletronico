@@ -108,7 +108,7 @@ public class Cliente {
                         if (rUsGetMensagem != null) {
                             System.out.println(rUsGetMensagem.getMensagem());
                         } else {
-                            System.out.println("| <<< Não foi possivel obter uma mensagem, Confira se digitou corretamente o Username >>>");
+                            System.out.println("| <<< Não foi possivel obter uma mensagem >>>");
                         }
                         System.out.print("\n");
                         break;
@@ -129,7 +129,7 @@ public class Cliente {
                             System.out.print("| Num de mensagem: ");
                             System.out.println(rUsGetNMensagem);
                         } else {
-                            System.out.println("| <<< Não foi possivel obter quantas mensagens existem para esse usernamo >>>");
+                            System.out.println("| <<< Não foi possivel obter quantas mensagens existem para esse usuario >>>");
                         }
                         System.out.print("\n");
                         break;
